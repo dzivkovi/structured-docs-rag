@@ -1,0 +1,33 @@
+# Structured Docs RAG - Requirements
+# Python 3.11+ recommended
+
+# Core RAG Framework
+llama-index-core==0.14.5
+llama-index-readers-file==0.5.4
+
+# LLM Integration
+llama-index-llms-anthropic==0.9.7
+anthropic==0.71.0
+
+# Embeddings
+llama-index-embeddings-huggingface==0.5.2
+huggingface-hub==0.30.2
+torch==2.8.0
+torchvision==0.23.0
+
+# PDF Conversion (DocLing for image-based PDFs)
+docling==2.55.1
+docling-core==2.48.4
+docling-ibm-models==3.9.1
+docling-parse==4.5.0
+
+# Data Validation
+pydantic==2.12.3
+pydantic-settings==2.9.1
+
+# Optional: GPU acceleration for DocLing (uncomment if you have CUDA)
+# torch-cuda  # For NVIDIA GPUs
+
+# Development Dependencies (optional)
+# jupyter>=1.0.0
+# notebook>=7.0.0

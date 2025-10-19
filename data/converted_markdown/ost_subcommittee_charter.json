@@ -1,0 +1,1480 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "ost_subcommittee_charter",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 5641246870071789803,
+    "filename": "ost_subcommittee_charter.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/38"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 137.33333333333334,
+            "t": 679.6666666666666,
+            "r": 475.6666666666667,
+            "b": 637.6666666666666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "CHARTER of the SUBCOMMITTCE ON OCEAN SCICNCE AND TECHNOLOGY",
+      "text": "CHARTER of the SUBCOMMITTCE ON OCEAN SCICNCE AND TECHNOLOGY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 84.0,
+            "t": 635.3333333333334,
+            "r": 528.3333333333334,
+            "b": 613.3333333333334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "COMMITTEE ON ENVIRONMENT, NATURAL RESOURCES, AND SUSTAINABILITY",
+      "text": "COMMITTEE ON ENVIRONMENT, NATURAL RESOURCES, AND SUSTAINABILITY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 166.0,
+            "t": 610.3333333333334,
+            "r": 446.3333333333333,
+            "b": 590.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "NATIONAL SCIENCE AND TECHNOLOGY COUNCIL",
+      "text": "NATIONAL SCIENCE AND TECHNOLOGY COUNCIL",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.66666666666667,
+            "t": 583.3333333333334,
+            "r": 188.66666666666666,
+            "b": 565.6666666666666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "A Official Designation",
+      "text": "A Official Designation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.66666666666667,
+            "t": 570.0,
+            "r": 541.0,
+            "b": 526.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "orig": "The Subcommittee on Ocean Science and Technology (SOST) is hereby cstablished by the National Science and Sustainability (CENRS)",
+      "text": "The Subcommittee on Ocean Science and Technology (SOST) is hereby cstablished by the National Science and Sustainability (CENRS)"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 68.0,
+            "t": 518.6666666666667,
+            "r": 182.33333333333334,
+            "b": 502.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "B. Purpose and Scope",
+      "text": "B. Purpose and Scope",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 65.66666666666667,
+            "t": 506.3333333333333,
+            "r": 538.3333333333334,
+            "b": 382.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            542
+          ]
+        }
+      ],
+      "orig": "Thc purpose of the SOST is to advise and assist the CENRS on national issues of ocean science and technology, work closely with the Ocean Sub-Intcragency Policy (Oceans Sub-IPC) Committee of the Global Environment Policy Coordinating Committec a established by National SecuritycPresidentiao Directive -1 and National Security Council Memorandum of 25,2001; bodies of the National Nadiona} Scean Council (NOC) and its associated bodies as established by Presidential Executive Order 13547 on 19, 2010; and other entities of the NSTC. May July",
+      "text": "Thc purpose of the SOST is to advise and assist the CENRS on national issues of ocean science and technology, work closely with the Ocean Sub-Intcragency Policy (Oceans Sub-IPC) Committee of the Global Environment Policy Coordinating Committec a established by National SecuritycPresidentiao Directive -1 and National Security Council Memorandum of 25,2001; bodies of the National Nadiona} Scean Council (NOC) and its associated bodies as established by Presidential Executive Order 13547 on 19, 2010; and other entities of the NSTC. May July"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.0,
+            "t": 363.6666666666667,
+            "r": 525.6666666666666,
+            "b": 329.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 61.666666666666664,
+            "t": 303.0,
+            "r": 533.3333333333334,
+            "b": 279.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            90,
+            164
+          ]
+        }
+      ],
+      "orig": "Subcommittee on Ocean Science and Technology Interagency Policy Committee (OST-IPC) . and the National Ocean Policy.  Specifically, the SOST will: implementation of",
+      "text": "Subcommittee on Ocean Science and Technology Interagency Policy Committee (OST-IPC) . and the National Ocean Policy.  Specifically, the SOST will: implementation of"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.66666666666667,
+            "t": 271.33333333333337,
+            "r": 366.6666666666667,
+            "b": 251.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "1. Identify national ocean science and technology priorities.",
+      "text": "Identify national ocean science and technology priorities.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.66666666666667,
+            "t": 220.0,
+            "r": 528.6666666666666,
+            "b": 169.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            263
+          ]
+        }
+      ],
+      "orig": "3 Facilitate fedcral interagency efforts to expand fundamental knowledge about the ocean and its interactions with other components of the Earth system; including the atmosphere, land and resources; and about the relationship between the ocean and society; living",
+      "text": "3 Facilitate fedcral interagency efforts to expand fundamental knowledge about the ocean and its interactions with other components of the Earth system; including the atmosphere, land and resources; and about the relationship between the ocean and society; living",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.33333333333333,
+            "t": 258.66666666666663,
+            "r": 518.6666666666666,
+            "b": 213.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "2. Facilitate fcderal intcragency coordination of disciplinary and interdisciplinary occan research, ocean technology and infrastructure development; ocean education, and national ocean observation and mapping programs.",
+      "text": "Facilitate fcderal intcragency coordination of disciplinary and interdisciplinary occan research, ocean technology and infrastructure development; ocean education, and national ocean observation and mapping programs.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 77.33333333333333,
+            "t": 180.66666666666663,
+            "r": 498.0,
+            "b": 156.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "4. Further the application of knowlcdge for modeling and forecasting ocean phenomena.",
+      "text": "Further the application of knowlcdge for modeling and forecasting ocean phenomena.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 90.66666666666667,
+            "t": 141.66666666666663,
+            "r": 525.6666666666666,
+            "b": 112.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Focilitate interagency use of ocean science and technology in developing coascsounce policics. marine",
+      "text": "Focilitate interagency use of ocean science and technology in developing coascsounce policics. marine",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.66666666666667,
+            "t": 166.0,
+            "r": 500.3333333333333,
+            "b": 130.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "Provide advice on natural and social science and implementing ecosystem-bascd management and sustainable stewardship of resources .",
+      "text": "Provide advice on natural and social science and implementing ecosystem-bascd management and sustainable stewardship of resources .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 74.66666666666667,
+            "t": 114.0,
+            "r": 484.3333333333333,
+            "b": 84.66666666666663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "7. Rccommend scientific and technical assessments and analyses of ocean science and technology initiatives:",
+      "text": "Rccommend scientific and technical assessments and analyses of ocean science and technology initiatives:",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 89.33333333333333,
+            "t": 705.3333333333334,
+            "r": 533.6666666666666,
+            "b": 673.6666666666666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "8 Identify opportunities and articulate priorities for enhancing occan education, outreach and capacity building; both domestically and intcrnationally;",
+      "text": "8 Identify opportunities and articulate priorities for enhancing occan education, outreach and capacity building; both domestically and intcrnationally;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.33333333333333,
+            "t": 653.0,
+            "r": 507.6666666666667,
+            "b": 631.6666666666666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "10. Foster the transition of ocean research results for operations and socictal applications",
+      "text": "Foster the transition of ocean research results for operations and socictal applications",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.66666666666667,
+            "t": 679.6666666666666,
+            "r": 507.3333333333333,
+            "b": 649.3333333333334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "9 Identify opportunities for promoting international collaborations in ocean science and technology",
+      "text": "9 Identify opportunities for promoting international collaborations in ocean science and technology",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 69.33333333333333,
+            "t": 626.6666666666666,
+            "r": 152.66666666666666,
+            "b": 610.6666666666666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "D. Membership",
+      "text": "D. Membership",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.66666666666667,
+            "t": 614.6666666666666,
+            "r": 533.6666666666666,
+            "b": 471.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            830
+          ]
+        }
+      ],
+      "orig": "Membership of the SOST will be cstablished in accord with NSTC policy and procedures; The group will consist of Deputy Assistant Secretaries or comparable representatives; or appropriate senior-level representatives with decision-making authority from departments, agencies; and offices represented on the CENRS. In addition; the Chair of the Oceans Sub-IPC and the Co-Chairs of the ORM-IPC will be invited to be non-voting, ex officio members of the SOST t0 encourage strong coordination of national ocean affairs; The SOST shall be co-chaired by Administration; and the White House Office of Science and Technology These Co-Chairs shall serve in addition to, and independent of, their respective agency's SOST member. The CoChairs of the SOST may designate additional non-voting; ex officio members as deemed necessary Policy. ~",
+      "text": "Membership of the SOST will be cstablished in accord with NSTC policy and procedures; The group will consist of Deputy Assistant Secretaries or comparable representatives; or appropriate senior-level representatives with decision-making authority from departments, agencies; and offices represented on the CENRS. In addition; the Chair of the Oceans Sub-IPC and the Co-Chairs of the ORM-IPC will be invited to be non-voting, ex officio members of the SOST t0 encourage strong coordination of national ocean affairs; The SOST shall be co-chaired by Administration; and the White House Office of Science and Technology These Co-Chairs shall serve in addition to, and independent of, their respective agency's SOST member. The CoChairs of the SOST may designate additional non-voting; ex officio members as deemed necessary Policy. ~"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 68.33333333333333,
+            "t": 468.0,
+            "r": 205.66666666666666,
+            "b": 453.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "E: Private Sector Interface",
+      "text": "E: Private Sector Interface",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.0,
+            "t": 456.3333333333333,
+            "r": 517.0,
+            "b": 409.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "The SOST may solicit and receive advice from non-Federal entities, consistent with the Federal Advisory Committee Act and other governing procedures, including the Presidents Council of Advisors on Science and Technology and the Ocean Researcl Advisory Panel.",
+      "text": "The SOST may solicit and receive advice from non-Federal entities, consistent with the Federal Advisory Committee Act and other governing procedures, including the Presidents Council of Advisors on Science and Technology and the Ocean Researcl Advisory Panel."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.0,
+            "t": 405.3333333333333,
+            "r": 174.33333333333334,
+            "b": 390.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "F. Termination Date",
+      "text": "F. Termination Date",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 66.33333333333333,
+            "t": 392.3333333333333,
+            "r": 536.3333333333334,
+            "b": 364.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "Unless renewed by the Co-Chairs of the CENRS prior to its expiration; the SOST shall terminate no later than June 30, 2017.",
+      "text": "Unless renewed by the Co-Chairs of the CENRS prior to its expiration; the SOST shall terminate no later than June 30, 2017."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.0,
+            "t": 355.0,
+            "r": 157.66666666666666,
+            "b": 340.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "G. Determination",
+      "text": "G. Determination",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 65.0,
+            "t": 342.6666666666667,
+            "r": 536.3333333333334,
+            "b": 293.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            292
+          ]
+        }
+      ],
+      "orig": "We hereby determine that the formation of the Subcommittee on Ocean Science and Technology is in the public interest in connection with the performance of duties imposed on the Executive Branch by law, and that such dutics can best be performed through the advice and counse] of such a group,",
+      "text": "We hereby determine that the formation of the Subcommittee on Ocean Science and Technology is in the public interest in connection with the performance of duties imposed on the Executive Branch by law, and that such dutics can best be performed through the advice and counse] of such a group,"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 66.33333333333333,
+            "t": 290.3333333333333,
+            "r": 119.0,
+            "b": 276.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Approved:",
+      "text": "Approved:"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.66666666666666,
+            "t": 249.33333333333337,
+            "r": 195.33333333333334,
+            "b": 233.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ect ocn",
+      "text": "ect ocn"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 63.0,
+            "t": 232.33333333333337,
+            "r": 331.62882813811865,
+            "b": 164.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "Tamara Dickinson Co-chair of the CENRS , and Principal Assistant Dírector for Environment and Office of Science and Technology Policy Executive Office of the President Energy",
+      "text": "Tamara Dickinson Co-chair of the CENRS , and Principal Assistant Dírector for Environment and Office of Science and Technology Policy Executive Office of the President Energy"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 404.3333333333333,
+            "t": 227.0,
+            "r": 429.6666666666667,
+            "b": 214.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Date",
+      "text": "Date"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.66666666666666,
+            "t": 249.33333333333337,
+            "r": 195.33333333333334,
+            "b": 233.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "ect ocn",
+      "text": "ect ocn"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 293.6666666666667,
+            "t": 60.33333333333337,
+            "r": 300.3333333333333,
+            "b": 51.66666666666663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 415.3333333333333,
+            "t": 713.3333333333334,
+            "r": 469.3333333333333,
+            "b": 688.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "9/2/3",
+      "text": "9/2/3"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 71.0,
+            "t": 693.6666666666666,
+            "r": 338.6666666666667,
+            "b": 623.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            138
+          ]
+        }
+      ],
+      "orig": "Kathryn Sullivan Co-chair of the CENRS, and Under Secretary for Oceans and Atmosphere and NOAA Administrator Department of Commerce Acting",
+      "text": "Kathryn Sullivan Co-chair of the CENRS, and Under Secretary for Oceans and Atmosphere and NOAA Administrator Department of Commerce Acting"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 412.3333333333333,
+            "t": 686.3333333333334,
+            "r": 437.6666666666667,
+            "b": 674.3333333333334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Date",
+      "text": "Date"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 71.0,
+            "t": 578.3333333333334,
+            "r": 78.33333333333333,
+            "b": 574.3333333333334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "~",
+      "text": "~"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 68.66666666666667,
+            "t": 574.6666666666666,
+            "r": 234.0,
+            "b": 514.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "Glenn Paulson Co-chair of the CENRS , and Science Advisor Environmental Protection Agency",
+      "text": "Glenn Paulson Co-chair of the CENRS , and Science Advisor Environmental Protection Agency"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 409.0,
+            "t": 568.3333333333334,
+            "r": 435.3333333333333,
+            "b": 554.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Date",
+      "text": "Date"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 286.3333333333333,
+            "t": 62.33333333333337,
+            "r": 293.0,
+            "b": 53.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 277.2296142578125,
+            "t": 751.6849098205566,
+            "r": 337.591796875,
+            "b": 689.2865753173828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.59229278564453,
+            "t": 253.4154052734375,
+            "r": 119.23395538330078,
+            "b": 233.314697265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 126.84886932373047,
+            "t": 257.221435546875,
+            "r": 193.26170349121094,
+            "b": 234.41943359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 73.60614776611328,
+            "t": 735.2833786010742,
+            "r": 285.3778991699219,
+            "b": 690.3758850097656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 97.11263275146484,
+            "t": 612.4600067138672,
+            "r": 249.4092254638672,
+            "b": 570.1691589355469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    }
+  }
+}
