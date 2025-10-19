@@ -1,33 +1,41 @@
 # Structured Docs RAG - Requirements
 # Python 3.11+ recommended
+#
+# NOTE: These are minimum version requirements with compatible ranges.
+# Tested working versions (2025-10-19):
+#   llama-index-core==0.14.5
+#   llama-index-embeddings-huggingface==0.6.1 (NOT 0.5.2 - incompatible)
+#   torch==2.9.0, torchvision==0.24.0
+#   docling==2.57.0
 
 # Core RAG Framework
-llama-index-core==0.14.5
-llama-index-readers-file==0.5.4
+llama-index-core>=0.14.0,<0.15.0
+llama-index-readers-file>=0.5.0
+llama-index-llms-anthropic>=0.9.0
+llama-index-embeddings-huggingface>=0.6.0  # 0.5.x incompatible with core 0.14.x
 
-# LLM Integration
-llama-index-llms-anthropic==0.9.7
-anthropic==0.71.0
+# Anthropic API
+anthropic>=0.71.0
 
-# Embeddings
-llama-index-embeddings-huggingface==0.5.2
-huggingface-hub==0.30.2
-torch==2.8.0
-torchvision==0.23.0
+# HuggingFace and PyTorch
+huggingface-hub>=0.30.0
+torch>=2.0.0
+torchvision>=0.15.0
 
 # PDF Conversion (DocLing for image-based PDFs)
-docling==2.55.1
-docling-core==2.48.4
-docling-ibm-models==3.9.1
-docling-parse==4.5.0
+docling>=2.0.0
+docling-core>=2.0.0
+docling-ibm-models>=3.0.0
+docling-parse>=4.0.0
 
 # Data Validation
-pydantic==2.12.3
-pydantic-settings==2.9.1
+pydantic>=2.0.0,<3.0.0
+pydantic-settings>=2.0.0
 
 # Optional: GPU acceleration for DocLing (uncomment if you have CUDA)
 # torch-cuda  # For NVIDIA GPUs
 
-# Development Dependencies (optional)
+# Development Dependencies (optional - for running notebooks)
 # jupyter>=1.0.0
 # notebook>=7.0.0
+# ipykernel>=6.0.0  # Required for VSCode Jupyter integration

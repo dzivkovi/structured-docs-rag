@@ -3,8 +3,9 @@ Testing all 8 legal PDFs...
 
 1. Immigration Case
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:25:21,864 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: us_immigration_case.pdf
@@ -15,7 +16,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 3 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -24,19 +24,18 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: Why was the alien fiancé petition denied?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 33.34it/s]
-2025-10-19 00:49:38,517 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
-The petition was denied because the petitioner was a lawful permanent resident, not a U.S. citizen. The law only allows U.S. citizens to file fiancé(e) petitions (Form I-129F) for their foreign partners. While the petitioner indicated they intended to become a U.S. citizen, this was not sufficient as the nonimmigrant classification under the Immigration and Nationality Act is specifically limited to fiancé(e)s of U.S. citizens. However, the denial was without prejudice, meaning the petitioner could file a new petition once they actually become a U.S. citizen.
+The petition was denied because the petitioner was a lawful permanent resident, not a U.S. citizen. The law only allows U.S. citizens to file fiancé(e) petitions (Form I-129F) for their foreign partners. While the petitioner indicated they intended to become a U.S. citizen, this was not sufficient as the nonimmigrant classification under the Immigration and Nationality Act is specifically limited to fiancé(e)s of U.S. citizens. However, the denial was without prejudice, meaning the petitioner could file a new petition once they become a U.S. citizen.
 ----------------------------------------------------------------------
 
 
 2. Motion to Stay
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:25:33,913 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: motion_to_stay.pdf
@@ -47,7 +46,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 4 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.44it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.44it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -56,8 +54,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What did Victor George request from the court?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.03it/s]
-2025-10-19 00:49:51,585 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
@@ -67,8 +63,9 @@ Victor George requested a stay on the court's consideration of two motions filed
 
 3. Energy Supply & Demand
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:25:54,033 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: energy_supply_demand.pdf
@@ -79,14 +76,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 8 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.66s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -95,19 +84,18 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What was the trend in U.S. crude oil production from 2015 to 2017?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.31it/s]
-2025-10-19 00:50:15,873 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
-U.S. crude oil production showed a declining trend during this period. Production peaked in 2015 at 9.42 million barrels per day, then decreased by 5.9% to 8.86 million barrels per day in 2016. The decline continued but at a slower rate into 2017, dropping by 0.9% to 8.78 million barrels per day. This represents a sustained downward trend over the two-year period, though the rate of decline moderated significantly in the latter year.
+U.S. crude oil production showed a declining trend during this period. Production peaked in 2015 at 9.42 million barrels per day, then decreased by 5.9% to 8.86 million barrels per day in 2016. The decline continued but at a slower rate into 2017, with a projected decrease of 0.9% to 8.78 million barrels per day. This represents a sustained downward trend over the two-year period, though the rate of decline moderated significantly in 2017 compared to the steeper drop seen in 2016.
 ----------------------------------------------------------------------
 
 
 4. Legal Case 2003
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:26:18,721 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: a_2003-19.pdf
@@ -118,13 +106,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 41 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.86s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.86s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.63s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.60s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.60s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.75s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.75s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.96it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.96it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -133,8 +114,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What statute or regulation is referenced in this document?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.34it/s]
-2025-10-19 00:50:40,485 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
@@ -158,8 +137,9 @@ These regulations and statutes primarily deal with tax-related matters, includin
 
 5. Bank Evaluation
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:26:36,264 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: barre_savings_bank_evaluation.pdf
@@ -170,9 +150,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 14 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -181,8 +158,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What is the overall rating of this bank?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 32.42it/s]
-2025-10-19 00:50:56,620 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
@@ -192,8 +167,9 @@ The bank received a "Satisfactory" rating in this CRA performance evaluation. Th
 
 6. Foreign Markets
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:26:47,942 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: foreign_markets.pdf
@@ -204,7 +180,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 8 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.54it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.54it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -213,21 +188,18 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What foreign markets are discussed in this document?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 28.09it/s]
-2025-10-19 00:51:09,851 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
-The document primarily discusses foreign investment in U.S. markets, particularly focusing on the bond market and equity markets, rather than discussing specific foreign markets themselves. The only specific foreign entities mentioned are European partners, Japan, China, Russia, and OPEC, but these are mentioned in the context of foreign policy relationships rather than as markets for investment.
-
-The main focus is on how foreign investors view and interact with U.S. markets, especially noting that foreign investors own about one-third of U.S. Treasury obligations, which is double what it was 10 years prior to when this discussion took place.
+The document primarily discusses foreign investment in U.S. markets, particularly focusing on the bond market and equity markets, rather than discussing specific foreign markets themselves. However, there are brief mentions of interactions with Japan, China, Russia, and European partners in the context of trade relations and policy issues. The main focus is on how foreign investors view and participate in U.S. financial markets, with particular emphasis on their significant involvement in U.S. Treasury bonds.
 ----------------------------------------------------------------------
 
 
 7. Offshore Drilling Bill
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:27:00,118 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: oc_bill_offshore_drilling.pdf
@@ -238,7 +210,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 3 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.45it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.45it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -247,8 +218,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What is the main purpose of this bill?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.68it/s]
-2025-10-19 00:51:22,835 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
@@ -264,8 +233,9 @@ The drilling would be permitted starting 25 miles from the shoreline, with the f
 
 8. Subcommittee Charter
 -----------------------------------
-C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+C:\Users\danie\ws\LLMs\CodeUnderstanding\structured-docs-rag\.venv\Lib\site-packages\pydantic\_internal\_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'validate_default' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'validate_default' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
   warnings.warn(
+2025-10-19 12:27:10,962 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 ✓ ANTHROPIC_API_KEY found in environment
 
 📂 Loading: ost_subcommittee_charter.pdf
@@ -276,7 +246,6 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ✓ Loaded 4 document(s)
 
 ⏳ Building index...
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.13it/s]
 ✓ Index built
 
 ⏳ Creating query engine...
@@ -285,12 +254,10 @@ C:\Users\danie\scoop\apps\python311\current\Lib\site-packages\pydantic\_internal
 ======================================================================
 ❓ Question: What is the purpose of this subcommittee?
 ======================================================================
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 32.26it/s]
-2025-10-19 00:51:34,751 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 
 💡 Answer:
 ----------------------------------------------------------------------
-I apologize, but I don't see any clear information in the provided context about the purpose of the subcommittee. While the context shows page labels from a document titled "ost_subcommittee_charter.pdf", the actual content describing the subcommittee's purpose is not included in the excerpts provided. To accurately answer this question, I would need additional context containing specific details about the subcommittee's purpose and objectives.
+I apologize, but I don't see any clear information about the purpose of the subcommittee in the provided context. While the context shows page labels from a document titled "ost_subcommittee_charter.pdf", the actual content describing the subcommittee's purpose is not included in the excerpts shown. To accurately answer this question, I would need additional context containing specific details about the subcommittee's purpose and objectives.
 ----------------------------------------------------------------------
 
 
