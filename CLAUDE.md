@@ -4,9 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Structured Docs RAG** is a precision-focused Retrieval-Augmented Generation (RAG) system designed for high-stakes domains (legal, medical, regulatory documents). Built with LlamaIndex and Claude 3.5 Sonnet, it emphasizes structure preservation and zero-hallucination tolerance.
+**Structured Docs RAG** is a learning project exploring Retrieval-Augmented Generation (RAG) systems for high-stakes domains (legal, medical, regulatory documents). Built with LlamaIndex and Claude 3.5 Sonnet, it demonstrates structure preservation and grounding in source material.
 
-**Current Status**: Work-in-progress (Phase 1 complete with 100% accuracy on 8/8 test documents)
+**Project Status**: Learning project demonstrating RAG fundamentals (Phase 1 complete - 8/8 test documents passing)
+
+**Important**: This is a learning foundation for exploring more advanced techniques including tree-sitter for code indexing, graph-based retrieval, and hierarchical document structures. Not production-ready.
 
 **Core Technologies**:
 - LlamaIndex (RAG framework)
@@ -33,7 +35,7 @@ Settings.chunk_size = 512
 query_engine = index.as_query_engine(similarity_top_k=5)  # Critical: NOT 3
 ```
 
-**`similarity_top_k=5` is essential** - Default value of 3 caused retrieval failures. The bank evaluation document test failed with `top_k=3` (75% accuracy) but succeeded with `top_k=5` (100% accuracy). This 25-point improvement is worth the +33% token cost in high-stakes domains.
+**`similarity_top_k=5` is important** - Default value of 3 caused retrieval failures. The bank evaluation document test failed with `top_k=3` (75%) but succeeded with `top_k=5` (8/8 passing). This 25-point improvement is worth the +33% token cost in high-stakes domains.
 
 ### PDF Processing Strategy
 
@@ -214,12 +216,12 @@ This project is part of broader research into structure-preserving RAG:
 
 Training documents sourced from: [LlamaIndex Legal RAG Example](https://github.com/run-llama/llama_cloud_services/blob/main/examples/parse/multimodal/legal_rag.ipynb)
 
-## Success Metrics (Current)
+## Test Results (Current)
 
 | Metric | Value |
 |--------|-------|
-| Document Success Rate | 100% (8/8) |
-| Grounding Quality | Excellent - all answers sourced from documents |
-| Hallucination Rate | 0% (verified against source PDFs) |
+| Test Documents Passing | 8/8 |
+| Grounding Quality | All answers sourced from documents |
+| Hallucination Detection | Answers verified against source PDFs |
 | Average Query Time | 3-5 seconds |
 | Index Building Time | 5-10 seconds per PDF |

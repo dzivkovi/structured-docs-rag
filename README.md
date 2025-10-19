@@ -1,10 +1,10 @@
 # Structured Docs RAG
 
-*Precision-focused RAG pipeline for legal, medical, and regulatory documents using LlamaIndex and Claude*
+*Learning project: RAG pipeline for legal, medical, and regulatory documents using LlamaIndex and Claude*
 
-A Retrieval-Augmented Generation (RAG) system (work-in-progress) designed for **high-stakes domains** where absolute correctness is critical. This project demonstrates structure-preserving document indexing and retrieval using LlamaIndex, with a focus on diverse document types as a learning foundation for future applications in medical knowledge bases, regulatory compliance, and book-scale structured documents.
+A Retrieval-Augmented Generation (RAG) system (work-in-progress) exploring **high-stakes domains** where accuracy and grounding are important. This project demonstrates structure-preserving document indexing and retrieval using LlamaIndex, with a focus on diverse document types as a learning foundation for future applications in medical knowledge bases, regulatory compliance, and book-scale structured documents.
 
-**Success Rate**: 100% (8/8 test documents) ✅
+**Test Coverage**: 8 diverse legal and regulatory documents
 
 ---
 
@@ -72,7 +72,7 @@ The current dataset includes 8 legal PDFs spanning various document types:
 | `oc_bill_offshore_drilling.pdf` | Legislative | 243KB | Marijuana Opportunity Reinvestment and Expungement (MORE) Act |
 | `ost_subcommittee_charter.pdf` | Government Charter | 187KB | Ocean Science and Technology Subcommittee charter (image-based PDF) |
 
-**Test Coverage**: All 8 documents successfully answer domain-specific questions with 100% grounding in source material.
+**Test Coverage**: All 8 documents answer domain-specific questions with answers grounded in source material.
 
 ---
 
@@ -93,8 +93,7 @@ structured-docs-rag/
 │   └── multi-document-query-architecture.md  # Phase 2 design document
 ├── test_all_pdfs.bat                  # Windows batch testing script
 ├── test_all_pdfs.sh                   # Mac/Linux/Git Bash testing script
-├── validation_report.md               # Detailed validation analysis
-└── IMPROVEMENTS_SUMMARY.md            # System improvements documentation
+└── validation_report.md               # Detailed validation analysis
 ```
 
 ---
@@ -299,10 +298,10 @@ This project represents a learning journey in building RAG systems with LlamaInd
 - Clear path to advanced features (SubQuestionQueryEngine for multi-doc queries)
 
 **Why Claude 3.5 Sonnet?**
-- Superior reasoning for complex legal/medical queries
-- Excellent instruction following
+- Good reasoning for complex legal/medical queries
+- Follows instructions well
 - Strong citation and grounding capabilities
-- Production-ready via Anthropic API
+- Available via Anthropic API
 
 **Why Local Embeddings?**
 - HuggingFace BAAI/bge-base-en-v1.5 runs locally
@@ -313,11 +312,13 @@ This project represents a learning journey in building RAG systems with LlamaInd
 ### Success Metrics
 
 **Validation Results**:
-- Initial success rate: 6/8 (75%)
-- After improvements: 8/8 (100%) ✅
+
+- Initial results: 6/8 documents (75%)
+- After improvements: 8/8 documents
 - Improvement: +25 percentage points
 
 **Key Improvements**:
+
 1. ✅ Better retrieval (`similarity_top_k=5`)
 2. ✅ Image PDF support (DocLing integration)
 3. ✅ Clean output (warning suppression)
@@ -345,7 +346,7 @@ Implement LlamaIndex `SubQuestionQueryEngine` to enable:
 - Synthesized answers from multiple sources
 - Document routing based on query intent
 
-**Research**: See [./analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md](./analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md)
+**Design**: See [docs/multi-document-query-architecture.md](docs/multi-document-query-architecture.md)
 
 ### Phase 3: Book-Scale Knowledge Graphs
 
@@ -385,11 +386,11 @@ Explore Neo4j + Vector hybrid approach:
 
 ✅ **Completed (Phase 1)**:
 
-- Single-document RAG with 100% accuracy (8/8 test documents)
+- Single-document RAG (8/8 test documents)
 - Image-based PDF support via DocLing OCR
-- Professional CLI interface with argparse
-- Comprehensive validation and testing
-- Complete documentation
+- CLI interface with argparse
+- Validation and testing framework
+- Documentation
 
 🚧 **In Progress**:
 
@@ -411,9 +412,9 @@ Explore Neo4j + Vector hybrid approach:
 
 | Metric | Value |
 |--------|-------|
-| Document Success Rate | 100% (8/8) |
-| Grounding Quality | Excellent - all answers sourced from documents |
-| Hallucination Rate | 0% (verified against source PDFs) |
+| Test Documents | 8/8 passing |
+| Grounding Quality | All answers sourced from documents |
+| Hallucination Detection | Answers verified against source PDFs |
 
 ### Speed
 
