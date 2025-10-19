@@ -1,39 +1,84 @@
-# LlamaIndex cache/index files
-rag_index/
-rag_index_unstructured/
-storage/
-*.index
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-*.egg-info/
-dist/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
-.venv/
 venv/
-ENV/
+.venv/
 env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env*
+
+# API Keys (extra safety)
+*api_key*
+*.key
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
+# Claude Code local settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Logs
+*.log
+
 # Temporary files
 *.tmp
-*.log
+*.temp
+
+# Test coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
 
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+
+# LlamaIndex cache/index files (regenerated on each run)
+rag_index/
+storage/
+*.index
+
+# Analysis folder - exclude temporary conversation files
+analysis/**/2025-*/
+analysis/**/archive/
+
+# Don't ignore .gitkeep files
+!.gitkeep
+
+# Git worktrees
+.worktrees/
