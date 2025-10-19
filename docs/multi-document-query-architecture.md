@@ -445,7 +445,7 @@ python multi_doc_rag.py --verbose "Compare the outcomes in the immigration case 
 - [../validation_report.md](../validation_report.md) - Single-document validation results
 
 **Original Research**:
-- [../../analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md](../../analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md)
+- [./analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md](./analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md)
 
 ---
 

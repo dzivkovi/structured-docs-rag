@@ -32,7 +32,7 @@
 
 **Grounding**: ✅ **100% - Previously Verified**
 **Accuracy**: ✅ **Excellent**
-**Evidence**: Direct quotes from PDF verified in previous analysis (see [03-legal-rag-simple-version-pdf-grounding-verification.md](../analysis/2025-10-18/03-legal-rag-simple-version-pdf-grounding-verification.md))
+**Evidence**: Direct quotes from PDF verified in previous analysis (see [03-legal-rag-simple-version-pdf-grounding-verification.md](./analysis/2025-10-18/03-legal-rag-simple-version-pdf-grounding-verification.md))
 
 **Assessment**: Perfect retrieval and answer generation.
 

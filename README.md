@@ -345,7 +345,7 @@ Implement LlamaIndex `SubQuestionQueryEngine` to enable:
 - Synthesized answers from multiple sources
 - Document routing based on query intent
 
-**Research**: See [../analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md](../analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md)
+**Research**: See [./analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md](./analysis/2025-10-18/04-multi-document-rag-research-and-implementation-plan.md)
 
 ### Phase 3: Book-Scale Knowledge Graphs
 
