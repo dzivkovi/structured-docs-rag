@@ -1,10 +1,14 @@
 {
   "permissions": {
     "allow": [
+      "Read",
       "Write",
       "Edit",
       "Bash",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs"
     ],
     "deny": [
       "Bash(rm -r:*)",
@@ -22,6 +26,9 @@
       "Bash(git push -f:*)"
     ],
     "ask": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
       "Bash(git stash drop:*)",
       "Bash(git rebase:*)",
       "Bash(git merge:*)",
