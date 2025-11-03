@@ -22,63 +22,68 @@ share/python-wheels/
 .installed.cfg
 *.egg
 
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
 # Virtual environments
 venv/
 .venv/
 env/
 ENV/
-env.bak/
-venv.bak/
 
 # Environment variables
 .env*
 
-# API Keys (extra safety)
-*api_key*
-*.key
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/mcp.json
 .idea/
 *.swp
 *.swo
-*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Claude Code local settings
-.claude/settings.local.json
+# Claude Code
 CLAUDE.local.md
-
-# Logs
-*.log
+.claude/settings.local.json
 
 # Temporary files
 *.tmp
 *.temp
-
-# Test coverage reports
-.coverage
-htmlcov/
-.pytest_cache/
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# LlamaIndex cache/index files (regenerated on each run)
-rag_index/
-storage/
-*.index
+*.bak
+*.BAK
+*.old
 
 # Analysis folder - exclude temporary conversation files
 analysis/**/2025-*/
 analysis/**/archive/
 
+# starter design docs (later moved to analysis/<issue#>/DESIGN.md)
+analysis/0000/DESIGN*.md
 # Don't ignore .gitkeep files
 !.gitkeep
+
+# Work folders
+work/
+data/
+
+# LlamaIndex cache/index files (regenerated on each run)
+rag_index/
+storage/
+*.index
 
 # Git worktrees
 .worktrees/
